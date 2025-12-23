@@ -2,6 +2,7 @@
 FROM scratch AS ctx
 COPY build /build
 COPY custom /custom
+COPY system_files /files
 
 ###############################################################################
 # PROJECT NAME CONFIGURATION

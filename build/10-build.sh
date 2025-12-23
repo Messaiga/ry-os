@@ -41,8 +41,13 @@ echo "::endgroup::"
 
 echo "::group:: System Configuration"
 
+# Copy custom systemd services
+mkdir -p /usr/lib/systemd/system/
+cp /ctx/files/shared/usr/lib/systemd/system/*.service /usr/lib/systemd/system/
+
 # Enable/disable systemd services
 systemctl enable podman.socket
+systemctl enable flatpak-preinstall.service
 # Example: systemctl mask unwanted-service
 
 echo "::endgroup::"
