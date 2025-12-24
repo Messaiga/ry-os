@@ -10,7 +10,7 @@ Branch=stable
 [Flatpak Preinstall org.mozilla.Thunderbird]
 Branch=stable
 
-[Flatpak Preinstall one.ablaze.floorp]
+[Flatpak Preinstall app.zen_browser.zen]
 Branch=stable
 
 # GNOME Core Applications
@@ -128,9 +128,9 @@ Branch=stable
 
 # GTK Themes (runtimes)
 [Flatpak Preinstall org.gtk.Gtk3theme.adw-gtk3]
-Branch=stable
+Branch=3.22
 IsRuntime=true
 
 [Flatpak Preinstall org.gtk.Gtk3theme.adw-gtk3-dark]
-Branch=stable
+Branch=3.22
 IsRuntime=true
