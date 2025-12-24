@@ -10,7 +10,13 @@ Branch=stable
 [Flatpak Preinstall org.mozilla.Thunderbird]
 Branch=stable
 
+[Flatpak Preinstall one.ablaze.floorp]
+Branch=stable
+
 # GNOME Core Applications
+[Flatpak Preinstall org.gnome.gitlab.somas.Apostrophe]
+Branch=stable
+
 [Flatpak Preinstall org.gnome.Calculator]
 Branch=stable
 
@@ -78,7 +84,13 @@ Branch=stable
 [Flatpak Preinstall com.github.neithern.g4music]
 Branch=stable
 
+[Flatpak Preinstall org.videolan.VLC]
+Branch=stable
+
 # System Utilities
+[Flatpak Preinstall com.usebottles.bottles]
+Branch=stable
+
 [Flatpak Preinstall com.github.tchx84.Flatseal]
 Branch=stable
 
@@ -89,6 +101,9 @@ Branch=stable
 Branch=stable
 
 [Flatpak Preinstall io.github.flattool.Ignition]
+Branch=stable
+
+[Flatpak Preinstall org.localsend.localsend_app]
 Branch=stable
 
 [Flatpak Preinstall io.missioncenter.MissionCenter]
@@ -105,6 +120,10 @@ Branch=stable
 Branch=stable
 
 [Flatpak Preinstall page.tesk.Refine]
+Branch=stable
+
+# Communication
+[Flatpak Preinstall dev.vencord.Vesktop]
 Branch=stable
 
 # GTK Themes (runtimes)
