@@ -2,6 +2,7 @@
 FROM scratch AS ctx
 COPY build /build
 COPY custom /custom
+# COPY system_files /files
 
 ###############################################################################
 # PROJECT NAME CONFIGURATION
@@ -21,7 +22,7 @@ COPY custom /custom
 ###############################################################################
 
 # Base Image
-FROM ghcr.io/ublue-os/bluefin-dx:lts-hwe
+FROM ghcr.io/ublue-os/bluefin-dx:stable
 
 ## Other possible base images include:
 # FROM ghcr.io/ublue-os/bazzite:latest
